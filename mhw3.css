@@ -1,0 +1,629 @@
+
+article{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .block p{
+    color:rgb(24, 24, 190);
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(161, 161, 161, 0.8) ;
+  }
+  
+  body{
+    background-color:rgba(160, 149, 119, 0.3);
+    margin:0;
+  }
+  
+  #button{
+    border-radius: 50px;
+    border: 2px solid rgba(29, 196, 202,0.7);
+    padding:5px 10px;
+    margin-right: 30px;
+  }
+  #button:hover{
+    background-color:rgb(29, 196, 202);
+  }
+  
+  footer{
+    background-color:rgba(0, 0, 0, 0.37);;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-family:'Ubuntu', sans-serif;
+    color:white;
+    font-size:15px;
+    text-align: center;
+    width: 100vw;
+    padding:30px 0;
+  }
+  
+  header{
+    display:flex;
+    height:500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://staticfanpage.akamaized.net/wp-content/uploads/sites/33/2022/08/castello-walt-disney.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+  }
+  
+  header em{
+    max-width: 780px;
+    font-size:50px;
+    font-weight: bold;
+    z-index:1;
+    letter-spacing: .2rem;
+    text-shadow: 0 0 0.1em;
+  }
+  
+  .index{
+    margin-right: 40px;
+  }
+  
+  #logo{
+    margin:15px;
+    font-size: 20px;
+    font-family: 'Alkatra', cursive;
+    letter-spacing: 1.5px;
+  }
+  
+  #logo strong{
+    color:rgb(29, 196, 202);
+    text-transform: uppercase;
+  }
+  
+  #menu{
+    display:none;
+  }
+  
+  #menu div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 25px;
+  }
+  
+  nav{
+    background-color:rgba(0, 0, 0, 0.37);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    min-height: 40px;
+    max-height: 45px;
+    position: absolute;
+    top: 0;
+    z-index:1;
+    color:white;
+  }
+  
+  nav a{
+    cursor:pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:16px;
+    margin: 5px 15px;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  }
+  
+  
+  #overlay{
+    background-color:rgba(0, 0, 0, .3);
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:0;
+    height:100%;
+    width:100%;
+  }
+  
+  .paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top:60px;
+    margin-bottom: 120px;
+    color:black;
+  }
+  
+  
+  .paragraph a{
+    font-style: italic;
+    color: black;
+  }
+  .paragraph a:hover{
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  #profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-top:-50px;
+    text-align: center;
+    font-family:'Ubuntu', sans-serif; 
+    font-size: 15px;
+  }
+  
+  
+  #profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 3px solid white;
+    z-index: 1;
+  }
+  
+  
+  #profile p{
+    font-size:15px;
+    color:black;
+    line-height: 2em;
+    margin-block-end: 5px;
+    margin-block-start: 5px;
+  }
+  
+  #profile strong{
+    font-size:0.8em;
+  }
+  
+  #profile div{
+    width: 45vw;
+    height: 3px;
+    background-color: rgba(160, 149, 119, 0.3);
+    margin-bottom: 20px;
+  }
+  section{
+    width:66.67%;
+  }
+  
+  .index{
+    color:grey;
+  }
+  .title, .index{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .text{
+    font-family: 'Ubuntu', sans-serif;
+    color:black;
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 2em;
+    margin: 20px 0px;
+  }
+  
+  #Guardiani{
+      margin-top:20px;
+      height:36vw;
+      background-size: cover;
+      background-position: center;
+      background-image: url(https://movieplayer.net-cdn.it/t/images/2023/03/24/guardiani-della-galassia-vol-3_jpg_1600x900_crop_q85.jpg);
+    }
+    
+    #sirenetta{
+      margin-top: 20px;
+      height:36vw;
+      background-size: cover;
+      background-position: center;
+      background-image: url(https://www.repstatic.it/content/nazionale/img/2022/09/12/180802466-5ff4f9b5-24fd-4125-ada4-983677c477fc.jpg);
+    }
+    
+    #elemental{
+      margin-top: 20px;
+      height:36vw;
+      background-size: cover;
+      background-position: center;
+      background-image: url(https://pixarpost.com/wp-content/uploads/2023/01/Elemental-Screencap-Wade-Ember-Night-Street-r.jpg);
+    }
+    
+    #indiana{
+      margin-top: 20px;
+      height:36vw;
+      background-size: cover;
+      background-position: center;
+      background-image: url(https://www.ildenaro.it/wp-content/uploads/2023/03/indiana-jones-5-fan-poster.jpeg);
+    }
+    
+    #fantasmi{
+      margin-top: 20px;
+      height:36vw;
+      background-size: cover;
+      background-position: center;
+      background-image: url(https://www.nerdevil.it/wp-content/uploads/2023/03/la-casa-dei-fantasmi-disney-2023-teaser-trailer.jpg);
+    }
+  
+    #next{
+      margin-top: 20px;
+      height:36vw;
+      background-size: cover;
+      background-position: center;
+      background-image: url(https://pad.mymovies.it/filmclub/2020/01/022/coverlg.jpg);
+    }
+    
+    #wish{
+      margin-top: 20px;
+      height:36vw;
+      background-size: cover;
+      background-position: center;
+      background-image: url(https://www.cinemartmagazine.it/wp-content/uploads/2022/09/Wish.jpg);
+    }
+  
+    @media (max-width:600px){
+  
+     
+      #link{
+        display: none;
+      }
+    
+      #menu{
+        display: block;
+        cursor:pointer;
+      }
+      .paragraph{
+        margin-bottom: 50px;
+      }
+  
+      #profile em{
+        font-size: 18px;
+        line-height: 1.5em;
+      }
+      section{
+        width:85%;
+      }
+      
+      header{
+        height: 300px;
+      }
+    
+      header em{
+        font-size: 25px;
+      }
+  
+      .text{
+        font-size: 18px;
+        line-height: 1.5em;
+      }
+      .title, .index{
+        font-size: 30px;
+      }
+  
+      .index{
+        margin-right: 20px;
+      }
+      #Guardiani,#sirenetta,#elemental,#indiana,#fantasmi,#next,#wish{
+        min-height: 200px;
+        margin-top: 10px;
+      }
+    }
+  
+  
+  
+  
+    
+    #album-view {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 10%;
+    }
+    
+    #album-view .album {
+      margin: 10px;
+      border: 1px solid #dcdcdc;
+      background-color: #f4f4f4;
+      padding: 5px;
+      max-width: 200px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #album-view img {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    #track{
+      width: 500px;
+      height: 60px;
+      font-size: 30pt;
+      border-style: none;
+      border-bottom: 2px solid #cfe3ff;
+      outline: 0;
+      text-align: center;
+      font-family: 'Alkatra', cursive;
+    }
+  
+    
+    #submit, .clo, .clo1 {
+      border-radius: 5px;
+      border-style: none;
+      background-color: #cfe3ff;
+      height: 60px;
+      width: 100px;
+      font-size: 15pt;
+      font-family: 'Alkatra', cursive;
+      font-weight: lighter;
+      margin-left: 5px;
+      text-align: center;
+      cursor: pointer;
+    }
+    
+    #submit:hover, #submit0:hover .clo:hover, .clo1:hover{
+      background-color: #a1c1ee;
+    }
+  
+    .album, .album img{
+      border-radius: 20px;
+    }
+    
+    .album .link{
+      text-decoration: none;
+      color: rgb(52, 248, 45);
+      font-family: 'Alkatra', cursive;
+    }
+    
+    .album .link:hover{
+      color: black;
+    }
+  
+    .api_spotify{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  
+   #spotify{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+  
+   #spotify img{
+    width: 20%;
+   }
+   
+   #personaggi{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  #personaggi .auto{
+    margin: 10px;
+    border: 1px solid chartreuse;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #personaggi img{
+    max-width: 100%;
+  }
+  
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movie {
+    width: 300px;
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+  
+  .movie img {
+    width: 100%;
+  }
+  
+  .movie-info {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:0.2rem;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .movie-info h3 {
+    margin-top: 0;
+  }
+  
+  .movie-info span {
+    background-color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  
+  .movie-info span.green {
+    color: lightgreen;
+  }
+  
+  .movie-info span.orange {
+    color: orange;
+  }
+  
+  .movie-info span.red {
+    color: red;
+  }
+  
+  .overview {
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(101%);
+    overflow-y: auto;
+    transition: transform 0.3s ease-in;
+  }
+  
+  .movie:hover .overview {
+    transform: translateY(0);
+  }
+  
+  
+  .film{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .film img{
+    border: 5px solid rgb(194, 187, 187);
+    border-radius: 25px;
+    width: 50%
+  }
+  
+  .film div{
+    margin: 20px;
+  }
+  
+  .film h1{
+    font-family: 'Alkatra', cursive ;
+    text-decoration: underline;
+  }
+  
+  
+  
+  #MCU{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  
+  .film_r img{
+    max-width: 100%;
+  }
+  
+  #ris_ricerca{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex-wrap: wrap
+  }
+  
+  .film_r{
+    margin: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #f4f4f4;
+    padding: 5px;
+    max-width: 200px;
+    text-align: center;
+  
+  }
+
+
+  #films{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    justify-content: center
+  }
+
+  #films h3{
+    margin-right: 15px;
+    font-size: 1em
+
+  }
+
+  #film{
+    width: 500px;
+    height: 25px;
+    border-style: none;
+    border-bottom: 2px solid #cfe3ff;
+    outline: 0;
+    text-align: center;
+
+  }
+
+
+  #submit0{
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #cfe3ff;
+    height: 25px;
+    width: 100px;
+    font-family: 'Alkatra', cursive;
+    
+  }
+
+  
+  
+  
+  
+  @media (max-width:600px){
+
+    #track{
+        width: 50%;
+        font-size: 20px;
+        height: 40px;
+      }
+    
+      #submit{
+        height: 40px;
+      }
+
+    #MCU h3{
+      font-size: 15px;
+      margin-bottom: 8px;
+    }
+  
+    #MCU{
+      width: 90%; 
+     }
+    .film h1{
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+  
+    .clo{
+      height: 40px;
+    }
+
+    .film_r{
+      max-width: 150px;
+      
+    }
+  }
